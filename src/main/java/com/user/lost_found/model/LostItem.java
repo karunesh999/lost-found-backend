@@ -3,7 +3,6 @@ package com.user.lost_found.model;
 import jakarta.persistence.*;
 
 @Entity // marks java class as database entity
-@Table
 public class LostItem {
 
     @Id //primary key
@@ -30,6 +29,6 @@ public class LostItem {
     public void setDescription(String description) {this.description = description;}
     public String getContactInfo() {return contactInfo;}
     public void setContactInfo(String contactInfo) {this.contactInfo = contactInfo;}
-     //default constructor for database
+     
     }
 
